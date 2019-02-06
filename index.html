@@ -1,0 +1,133 @@
+<!DOCTYPE htlm> 
+<!-- Requisitos: doctype, html, body, head, header, footer, nav, section y article -->  
+<html lang ="es">
+<head>
+    <meta charset="utf-8"/> <!-- acentos y symbolos -->
+    <title>Punto de Ayuda</title>
+	<link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css"/>
+	<!-- ----------------- Tipografía ----------------- -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+	<!-- ----------------- icono fb ----------------- -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- ----------------- jqueri para scroll ----------------- -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- ----------------- Menu js ----------------- -->
+	<script src="js/nav.js"></script> 
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+	<!-- ----------------- Menu ----------------- -->
+	<nav class="nav fixed-top">
+		
+    <ul class="menu">
+		<li class="menu-item"><a href="#intro">Portada</a></li>
+        <li class="menu-item"><a href="#sobre">Bienvenida</a></li>
+        <li class="menu-item"><a href="#galeria">Galería</a></li>
+        <li class="menu-item"><a href="#mapa">Mapa</a></li>
+		<li class="menu-item"><a href="#contact">Contacto</a></li>
+   </ul>
+ </nav>
+	 
+<!------------------- Portada ------------------->
+  <div id="intro">  
+    <header>
+
+        <img id="fotito" class="img" src="img/perfil.png" height="200" width="200"/>
+        <h1>PUNTO DE AYUDA</h1>
+		
+    </header>
+    </div>
+	
+    <section>
+		
+<!------------------- Bio ------------------->
+		
+		<article id="sobre">
+      <div id="about" class="nancy">
+		
+			<div class="bloque-img">
+			<img id="tech" class="img" src="img/n-tech.png" width="450" height="auto"/>        
+		</div>	
+			
+        <div class="bloque-txt">
+			<p id="titulo">BIENVENIDA</p>
+			<p id="spaces">¿Qué tal va todo? Cómo todo en la vida, siempre existen altas y bajas. Y en la ciudad de ENSENADA hay gente con necesidades que cubrir pero que se encuentran en una situación desfavorable. Pero algo que caracteriza a los ciudadanos de esta bella ciudad son sus ganas de ayudar. Por eso es que se ha creado el proyecto de PUNTO DE AYUDA, un sitio donde puedes encontrar los lugares en los cuales puedes donar en dinero o en especie. También es posible que tengas algo que ya no usas y que está en buen estado. Te invitamos a explorar el mapa en esta página haciendo clic en cada punto marcado y así puedas tener la información que necesitas. <p><i>El primer paso está a tan solo un click de distancia.</i></p>
+		</div></div>  
+			
+        </article>
+	  </div> 
+<!------------------- Galería  ------------------->	
+		
+        <article id="galeria">
+			<div id="fotos" class="nancy">
+				<div class="o-bg">
+					<p id="titulo-b" class="white-txt">GALERÍA</p>
+				<small class="white-txt"><i>- Solos podemos hacer mucho, juntos podemos hacer más -</i></small><br/><br/>
+				
+				<img class="img" src="img/g2.jpg" width="400px" height="auto" alt="Cetys Universidad visitando la Casa Hogar del Anciano">
+				<img class="img" src="img/g3.jpg" width="400px" height="auto" alt="Casa Horizonte">
+				<img class="img" src="img/g4.jpg" width="400px" height="auto" alt="Casa Hogar para Niños">
+				<img class="img" src="img/g6.jpg" width="400px" height="auto" alt="Cruz Roja visitando la Casa Hogar del Anciano">
+				<img class="img" src="img/g7.jpg" width="400px" height="auto" alt="Policia Municipal en festejo para Casa Hogar para Niños">
+				<img class="img" src="img/g8.jpg" width="400px" height="auto" alt="Pro Esteros y jóvenes limpiando Punta Banda Estero">
+					<br/><br/><br/>
+			</div>
+			</div>
+		</article>       
+            
+<!-- ----------------- Mapa ----------------- -->
+		
+        <article id="mapa">
+		    <div id="contenedormapa" class="nancy"><p id="titulo-b" class="white-txt">Mapa</p>
+				<p><small><i>- Haz click en los botones debajo del mapa. Para navegar en pantalla completa haz click en icono superior de la derecha. -</i></small></p>
+                <div id="map" class="contenedor-mapa"></div>
+                <div id="opciones">
+					
+                    
+				
+                    <input type="radio" name="opciones" value="Asilos" id="opAsilos" onclick="asilos()"></input>
+                    <label for="opAsilos" class="boton boton2">Asilos</label>
+				
+					<input type="radio" name="opciones" value="Orfanatos" id="opOrfanatos" onclick="orfanatos()"></input>
+                    <label for="opOrfanatos" class="boton boton2">Orfanatos</label>
+			
+                    <input type="radio" name="opciones" value="Centros de reciclaje" id="opCentros" onclick="reciclaje()"></input>
+                    <label for="opCentros" class="boton boton2">Centros de reciclaje</label>
+	
+                    <input type="radio" name="opciones" value="Todos" id="opTodos" checked onclick="todos()"></input>
+                    <label for="opTodos" class="boton boton2">Todos</label>
+	
+                </div>
+            </div>
+        </article>
+
+<!------------------- Contacto ------------------->
+
+		<article id="contact" class="quotes">
+			<div class="nancy" id="white-txt">
+				<p id="titulo-b" class="white-txt2">CONTACTO</p><br/>
+				
+				<form id="white-txt" action="contact.php" method="post">
+					nombre<br/> <input type="text" name="first_name"><br>
+					apellido<br/> <input type="text" name="last_name"><br>
+					email<br/> <input type="text" name="email"><br>
+					mensaje<br/><textarea rows="5" name="message" cols="30"></textarea><br>
+					<input type="submit" name="submit" value="enviar">
+				</form>
+				
+			</div>
+		</article>
+    </section>
+<!------------------- Footer ------------------->
+
+    <footer id="footer" class="nancy"> 
+			<a href="https://www.facebook.com/puntodeayuda/" target="_blank"><i class="fa fa-facebook-square"></i></a></footer>
+<!--Aquí se puede poner el scropt para que lo cargue al último-->
+<!--Ej. <script src="js/nav.js"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?&callback=initMap" async defer></script>
+</body>
+</hmtl>
