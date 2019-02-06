@@ -1,0 +1,370 @@
+
+body{
+	margin: 0;
+	background: url("../img/bg00.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: light;
+	font-size: 19px;
+	transition: ease 0.2s;
+	}
+
+
+/*------------------- form contacto ---------------------*/
+#contact{
+	background: url("../img/bg000.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+	  color: #888b8e;
+	  
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: lightslategray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: 'Source Sans Pro', sans-serif;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	
+}
+
+input[type=submit]:hover {
+    background-color: #344e68;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+	font-size: 19px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+th, td {
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	font-size: 19px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*------------------- otros ---------------------*/
+.img{
+	border-radius: 400px;
+	text-align: center;
+}
+
+
+
+
+.yamequierodormir{
+	margin: 0 auto;
+	width: 700px;
+}
+
+
+
+.titulo{
+	text-align: center;
+}
+.nancy{
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 50px;
+	padding-bottom: 35px;
+	text-align: center;
+	height: auto;
+}
+
+.center{
+	
+	margin: 0 auto;
+	width: 500px;
+}
+
+.center-v{
+	
+	margin: 0 auto;
+	width: 600px;
+}
+
+
+
+.white-txt{
+	color: #FFFFFF;
+}
+
+.white-txt2{
+	color: #FFFFFF;
+}
+
+.video-c{
+	text-align: center;
+	background-color: white;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 50px;
+	padding-bottom: 35px;
+	height: auto;
+	
+	}
+
+/*-------------------  inline-block HERE!------------------- */
+
+.bloque-img{
+	display: inline-block;
+	width: 500px;
+	text-align: center;
+	
+ 
+}
+/* -------------------inline-block HERE! ------------------- */
+.bloque-txt{
+	display: inline-block;
+	width: 500px;
+	text-align: center;
+ 
+}
+
+/*-------------------estilos de boton  -----------------*/
+.boton { /*Botón bonito :3*/
+    background-color: lightslategray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	font-family: 'Source Sans Pro',sans-serif;
+}
+
+
+.boton2:hover {/*Para el hover*/
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*-------------------menu con etiqueta nav  -----------------*/
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.fixed-content {
+    margin-top: 49px;
+	
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	text-align: center;
+	
+}
+
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li {
+    display:inline;
+}
+
+/* Change the link color to #111 (black) on hover */
+.menu-item a:hover {
+    background-color: #111;
+}
+
+input[type="radio"] {
+  width: 0px;
+  height: 0px;
+  display: none;
+}
+
+.fa {
+	font-size:36px;
+	color:lightslategray;
+}
+
+.fa:hover {
+   color: #344e68;
+	font-size:36px;
+}
+
+/*------------------- etiquetas id  -----------------*/
+#about
+{
+	background-color: white;
+}
+
+#mapa{
+	text-align: justify;	
+}
+
+#titulo{
+	 font-family: 'Source Sans Pro', sans-serif;
+  	color: #888b8e;
+	font-size: 25px; 
+}
+
+#titulo-b{
+	 font-family: 'Source Sans Pro', sans-serif;
+  	color: #FFF;
+	font-size: 25px; 
+}
+
+#fotos
+{
+background: url("../img/bg02.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#intro{
+	height: 500px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 130px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color: white;	
+}
+
+#quote-intro{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 28px;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+}
+#spaces{
+	line-height: 200%;
+}
+
+
+#fotito{
+	width: 300px;
+	height: 300px;
+}
+#footer{
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 50px;
+	padding-bottom: 35px;
+	text-align: center;
+	height: auto;
+	background-color: black;
+	font-size: 36px;
+}
+
+
+#libros
+{
+background: url("../img/bg2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+
+}
+
+#tech{
+	border-radius: 400px;
+}
+#white-txt{
+	color:#FFFFFF;
+}
+
+
+/*------------------- mapa  -----------------*/
+
+#mapa{
+    text-align: center;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+#mapa h3{
+	color:black;
+}
+#contenedormapa{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+#map{
+    height: 600px;
+}
+#opciones{
+    padding-top: 20px;
+}
+#opciones .boton{
+    width: 200px;
+}
+#opciones input:checked + label{
+    background-color: #344e68;
+}
+
+
+/*------------------- Scroll -----------------*/
+
+
+/* Scroll to specific values, scrollTo is the same */
+window.scroll({
+  top: 2500, 
+  left: 0, 
+  behavior: 'smooth' 
+});
+
+// Scroll certain amounts from current position 
+window.scrollBy({ 
+  top: 100, // could be negative value
+  left: 0, 
+  behavior: 'smooth' 
+});
+
+// Scroll to a certain element
+document.querySelector('.hello').scrollIntoView({ 
+  behavior: 'smooth' 
+});
